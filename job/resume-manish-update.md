@@ -4,83 +4,86 @@ E-MAIL: manish.sihulia@gmail.com     **NUREMBERG, GERMANY**
 
 ## Summary
 
-Senior Software Engineer with 5 years of experience in enterprise data platforms and infrastructure, specializing in Microsoft BI stack, SQL Server administration, and cloud migration. Proven expertise in designing and maintaining scalable data solutions, optimizing system performance, and implementing modern BI architectures. Strong background in infrastructure automation, system integration, and platform migration. Available immediately and willing to travel to Coburg for critical on-site meetings.
+Business Intelligence Developer with 5 years of experience in data analytics, dashboard development, and enterprise reporting solutions. Proven expertise in Power BI, SQL, and data integration, with a strong track record of transforming complex business requirements into actionable insights. Skilled in developing and optimizing reporting solutions that drive business decision-making. Available immediately and willing to relocate to Bad Neustadt an der Saale.
 
 ## Technical Expertise
 
-### 🗄️ Microsoft BI & Data Platform
-- **SQL Server Administration:** Deep expertise in SQL Server (2016-2022), including configuration, maintenance, and performance tuning
-- **BI Services:** SSRS, SSAS, Power BI Report Server (on-premises), deep understanding of enterprise BI architecture
-- **ETL & Integration:** SSIS, data warehouse architecture, automated ETL pipelines, system integration
-- **Performance:** Query optimization, database tuning, monitoring tools implementation, capacity planning
+### � BI & Analytics
+- **Power BI:** Advanced DAX, Power Query (M), report development, dashboard optimization
+- **Analytics Tools:** Experienced in multiple BI platforms, quick learner for tools like Jedox
+- **Reporting:** KPI dashboards, interactive visualizations, automated reporting solutions
+- **Data Modeling:** Star schema, dimensional modeling, metrics design
 
-### ☁️ Cloud & Infrastructure
-- **Azure Services:** App Services, Function Apps, Azure Data Factory, Logic Apps
-- **Migration:** Experience with SQL Server version upgrades and cloud migration planning
-- **Infrastructure as Code:** Terraform, Azure Resource Manager templates, PowerShell automation
-- **Security:** OAuth 2.0, JWT implementation, secure logging frameworks (Serilog/NLog)
+### 🗄️ Data Management & Integration
+- **Databases:** MS SQL Server, PostgreSQL, expertise in complex SQL queries and optimization
+- **ETL & Data Processing:** SSIS, ETL pipeline design, data quality management
+- **Data Sources:** Experience integrating multiple data sources, ensuring data accuracy
+- **Performance Optimization:** Query tuning, report performance enhancement
 
-### 🛠️ Development & Integration
-- **Backend:** C#, .NET Core/Framework, Web API, microservices architecture
-- **Data Access:** T-SQL, Entity Framework, LINQ, ADO.NET
-- **Automation:** PowerShell scripting, CI/CD pipelines, GitHub Actions
-- **Monitoring:** Application insights, custom monitoring solutions, health checks
-
-### 📊 Analytics & Reporting
-- **Power BI:** Report server administration, DAX, Power Query, deployment pipelines
-- **Data Modeling:** Dimensional modeling, data warehouse design
-- **Visualization:** Custom dashboard development, KPI monitoring, real-time analytics
+### 💻 Technical Skills
+- **Programming:** T-SQL, Python for data analysis, C# for custom solutions
+- **Development:** .NET ecosystem, API integration for data services
+- **Tools:** Visual Studio, Azure DevOps, version control (Git)
+- **Cloud:** Microsoft Azure services, cloud-based analytics solutions
 
 ## Professional Experience
 
 ### Associate Consultant — Mercedes-Benz Research and Development (via Capgemini)
 02/2024 – Oct/2025
 
-**Role:** Platform & Infrastructure Engineer
+**Role:** BI Developer – Automotive Analytics
 
-- Led the implementation and administration of enterprise-scale SQL Server infrastructure, supporting mission-critical automotive systems
-- Designed and implemented automated ETL pipelines using SSIS and T-SQL, improving data processing efficiency by 60%
-- Managed on-premises Power BI Report Server deployment, including security configuration and performance optimization
-- Implemented comprehensive monitoring solutions for database health, performance metrics, and system availability
-- Developed and maintained infrastructure-as-code using Terraform for consistent environment provisioning
-- Created detailed technical documentation and conducted knowledge transfer sessions for platform maintenance
-- Collaborated with cross-functional teams to ensure high availability and disaster recovery requirements were met
+- Designed and developed comprehensive Power BI dashboards for monitoring business KPIs and operational metrics
+- Created and optimized data models and ETL processes for efficient reporting
+- Collaborated with business stakeholders to understand requirements and deliver impactful visualizations
+- Developed automated data quality checks and monitoring solutions
+- Improved dashboard performance by 45% through optimized data modeling and DAX queries
+- Implemented real-time monitoring solutions for critical business metrics
+- Built end-to-end reporting solutions from data extraction to visualization
 
 **Key Achievements:**
-- Successfully migrated legacy SQL Server instances to modern versions with zero data loss
-- Reduced report rendering times by 45% through SQL query optimization and index tuning
-- Implemented automated health checks and alerting system for critical BI infrastructure
+- Reduced report generation time by 60% through optimized data models
+- Automated daily KPI reporting, saving 20+ hours per week of manual work
+- Implemented self-service BI solutions for business users
 
 ### Software Engineer — Chetu Inc.
 09/2021 – 02/2024
 
-**Role:** Data Platform Engineer – Healthcare Analytics
+**Role:** BI & Analytics Developer – Healthcare
 
-- Architected and maintained a large-scale SQL Server infrastructure supporting multi-tenant healthcare analytics
-- Implemented and managed SSRS/Power BI Report Server for enterprise reporting needs
-- Designed and optimized ETL processes for large-scale data integration from multiple healthcare systems
-- Created infrastructure automation scripts for consistent environment deployment
-- Led the planning and execution of SQL Server upgrade projects across multiple environments
+- Led the development of analytics solutions for a multi-tenant healthcare platform
+- Designed and implemented ETL processes for complex healthcare data integration
+- Created interactive Power BI dashboards for patient care and operational metrics
+- Developed SQL stored procedures and views for efficient data access
+- Maintained data quality through automated validation processes
 
-**Infrastructure & Platform Work:**
-- Improved platform stability through implementing robust monitoring and maintenance procedures
-- Reduced system downtime by 75% through automated health checks and proactive maintenance
-- Implemented high-availability solutions for critical database systems
+**Project Highlights:**
+- Built a comprehensive healthcare analytics platform using Power BI and SQL Server
+- Implemented automated data refresh and distribution workflows
+- Reduced manual reporting effort by 75% through process automation
 
 ### Jr. Software Developer — Sanchay Tech Private Limited
 01/2021 – 08/2021
 
-**Role:** BI Developer – ERP Platform
+**Role:** BI Developer – ERP Analytics
 
-- Maintained and optimized SQL Server databases for ERP system
-- Developed and maintained SSRS reports and dashboards for business analytics
-- Implemented automated data quality checks and monitoring solutions
+- Developed and maintained dashboards for ERP system analytics
+- Created SQL queries and stored procedures for data extraction
+- Built automated reporting solutions for inventory and financial metrics
+- Implemented data quality checks and validation procedures
+
+## Skills Highlights
+
+- **Dashboard Development:** Power BI, DAX, interactive visualizations
+- **Data Analysis:** SQL, data modeling, ETL processes
+- **Business Acumen:** Requirements analysis, stakeholder communication
+- **Tools & Technologies:** MS SQL Server, SSRS, SSIS, Excel
 
 ## Education and Training
 
 - 2014–2018 — Bachelor of Technology, Rajasthan Technical University (Kota, India)
-- Microsoft Certified: Azure Data Engineer Associate (In Progress)
-- SQL Server Administration and BI Platform Management (Self-Paced)
+- Microsoft Power BI Desktop & Service Certification (In Progress)
+- SQL Server Development and Administration (Self-Paced)
 
 ## Languages
 
@@ -89,4 +92,4 @@ Senior Software Engineer with 5 years of experience in enterprise data platforms
 
 ## Location
 
-Nuremberg, Germany (willing to travel to Coburg for on-site meetings)
+Currently in Nuremberg, willing to relocate to Bad Neustadt an der Saale
