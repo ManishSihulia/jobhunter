@@ -1,10 +1,15 @@
-# MANISH SAHANI
-TEL.: (+49) 15757919514          
-E-MAIL: manish.sihulia@gmail.com     **NUREMBERG, GERMANY**
-## 
-Full Stack Developer with 5 years of experience building scalable SaaS applications in healthcare and automotive domains. Proficient in C#, ASP.NET Core, SQL Server, and REST APIs. Skilled in Agile, Azure, and CI/CD environments. I am actively seeking a new job and am available on very short notice.
+<h1 style="margin:0; color:#0b6fbf;">MANISH SAHANI</h1>
+<div style="color:#333;">Tel: <strong>(+49) 15757919514</strong></div>
+<div style="color:#333;">Email: <strong>manish.sihulia@gmail.com</strong></div>
+<div style="color:#333;">Nuremberg, Germany</div>
 
-## Skills
+<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
+<div style="background:#f7fbff; padding:10px; border-left:0px solid #0b6fbf; margin:10px 0;">
+Full Stack Developer with 5 years of experience building scalable SaaS applications in healthcare and automotive domains. Proficient in C#, ASP.NET Core, SQL Server, and REST APIs. Skilled in Agile, Azure, and CI/CD environments. I am actively seeking a new job and am available on very short notice.
+ </div>
+ <div style="background:#f7fbf5; padding:5px; border-left:0px solid #0b6fbf; margin:10px 0;">
+
+<h2 style="margin:0; background:#f7fbf5;  color:#0b6fbf;">Technical Expertise</h2>
 
 ### 💻 Programming Languages & Frameworks
 - Languages: C#, T-SQL, jQuery, Terraform, Python, YAML
@@ -15,24 +20,21 @@ Full Stack Developer with 5 years of experience building scalable SaaS applicati
 ### 🧰 Tools & DevOps
 - IDEs/Tools: Visual Studio, VS Code, TFS, SVN, Jira, Confluence
 - DevOps: Git, CI/CD pipelines, GitHub Actions, Azure DevOps pipelines, Docker, Terraform, Azure container services
-
 ### 🗄️ Databases & Data Access
 - MS SQL Server, PostgreSQL, T-SQL, Entity Framework, LINQ, ADO.NET
-
 ### 🧪 Testing & QA
 - Unit Testing (MSTest), NUnit, xUnit, Maq, Selenium
-
 ### ☁️ Cloud & Architecture
 - Microsoft Azure: App Services, Function Apps, Blob Storage, Service Bus, Event Grid
 - Microservices, event-driven design, OOP principles, design patterns
-
 ### 🧠 AI, Data & Reporting
 - AI & LLMs: Copilot, Gemini, ChatGPT, Vibe coding, Ollama, OpenAI API
 - Data processing: SSIS, SSAS, ETL, Python
 - Visualization & reporting: Power BI (ETL, DAX, Power Query), Excel (Pivot Tables, Charts)
+</div>
+<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
 
 ## Work Experience
-
 ### Associate Consultant — Mercedes-Benz Research and Development (via Capgemini)
 02/2024 – Oct/2025
 
@@ -50,6 +52,8 @@ Full Stack Developer with 5 years of experience building scalable SaaS applicati
 - Applied OOP and design patterns to ensure clean, reusable code; implemented secure logging using Serilog/NLog.
 - Participated in Agile ceremonies (Jira, Confluence), contributing to continuous improvement.
 
+<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
+
 ### Software Engineer — Chetu Inc.
 09/2021 – 02/2024
 
@@ -66,9 +70,7 @@ Full Stack Developer with 5 years of experience building scalable SaaS applicati
 **Tech Stack:** ASP.NET Core, C#, MVC, Web API, SQL Server, jQuery, Git, CI/CD pipelines, GitHub Actions, Docker, Azure, Terraform
 
 ### Jr. Software Developer — Sanchay Tech Private Limited
-01/2021 – 08/2021
-
-City: Delhi | Country: India
+01/2021 – 08/2021  Delhi | Country: India
 
 **Role:** Full-Stack Developer – ERP System
 
@@ -80,17 +82,13 @@ City: Delhi | Country: India
 
 **Tech Stack:** ASP.NET, C#, MVC, SQL Server, jQuery, JavaScript, Git, TFS
 
-## Education and Training
+<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
 
+## Education and Training
 - 2014–2018 — Bachelor of Technology, Rajasthan Technical University (Kota, India)
 - 2010–2013 — 10th–12th Grade (Uttar Pradesh, India)
-- 2000–2010 — School
-
 ## Languages
-
 - English — Professional working proficiency
 - Deutsch — Beginner
-
 ## Location
-
 Erlanger, Germany

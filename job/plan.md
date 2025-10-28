@@ -1,9 +1,7 @@
-1- Here is the job descition file.
-/job/job-description.md
-2- Here is the resume file.
-/job/resume-manish.md
-3- According to the job description create more relevant resume. Include missing skills. Add some project story to assure resume relevant for the job.
-keep company name, year of experience same.
-4- Creat new resume with name.
-/job/resume-manish-update.md
+1- Here is the job descition file. File path: /job/job-description.md
+2- Here is the resume file. File path: /job/resume-manish.md
+3- According to the job description create more relevant resume. Include missing skills. Add some project story to assure resume relevant for the job. keep company name, year of experience same. keep same formatting with professional design same and colorful. 
+4- Create new resume with name. File name like /job/resume-manish-update.md
+5- Create 30 interview question answer to crack above job. file name like : /job/interview-qna.md
+6- Create trainning topic and overview and on missing skills. file name like:  /job/need-trainning.md
 
