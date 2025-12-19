@@ -1,22 +1,13 @@
+Your tasks
 
-[Source](https://niwadev.com/softwareentwickler-c-net/)
-
-Softwareentwickler C#/.NET
-Über niwadev:
-niwadev entwickelt qualitativ hochwertige Software, begegnet den Kunden auf Augenhöhe und holt sie dort ab, wo sie stehen. Dabei begleite ich Kunden bei der Softwareentwicklung von A wie Anforderung bis Z wie Zur Verfügung stellen.
-
-Darum geht es:
-Neu- und Weiterentwicklung von Individualsoftware auf Basis von Kundenanforderungen in .NET und JavaScript/TypeScript
-Konzeption technischer Lösungen für fachliche Anforderungen
-Unterstützung bei der Bereitstellung von Eigenentwicklungen
-Fachliche und technische Dokumentation der Software
-Was ich suche:
-Klare, ehrliche und transparente Kommunikation
-Kooperativer Arbeitsmodus
-mind. 5 Jahre nachweisbare Erfahrung in C#/.NET
-Erfahrung in der Entwicklung mit einem JavaScript/TypeScript Framework (idealerweise React.JS oder Svelte)
-Erfahrung in der Entwicklung und Bereitstellung von Anwendungen in der Microsoft Azure Cloud
-Sicherer Umgang mit Docker und Git
-Kenntnisse in der testgetriebenen Entwicklung
-Offener Umgang mit Wissen und Interesse am Wissensaustausch
-Sehr gute Deutschkenntnisse (C1)
+Develop & operate Azure solutions: Develop and maintain innovative cloud solutions based on Microsoft Azure in conjunction with Dynamics 365 and the Power Platform
+.NET/Go Backend & HTML/JS Frontend: Take over backend development with C# .NET and Go, as well as frontend development with modern web technologies such as HTML and JavaScript.
+IaC & CI/CD: Automate infrastructure with Terraform (IaC) and implement & maintain CI/CD pipelines (YAML) with Azure DevOps.
+Load testing & integration: Perform load tests with JMeter and integrate other cloud offerings such as Power BI, Power Apps and Power Automate.
+Quality assurance: Ensure software quality through unit and integration tests and participate in architecture design and code reviews.
+Your profile
+Azure experience: You have at least 2 years of experience in developing cloud solutions, ideally with a focus on Azure
+Tech Stack: You have in-depth knowledge of .NET/C#, Go, web technologies (HTML, JS, CSS etc.) as well as SQL and NoSQL databases.
+Best Practices: You are familiar with CI/CD, object-oriented design, and modern development tools.
+Education: You have a university degree in (business) informatics or a comparable qualification.
+Bonus: Experience with GCP, Dynamics 365 Customization and/or Go is an advantage.

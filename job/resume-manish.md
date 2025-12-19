@@ -1,97 +1,102 @@
-<h1 style="margin:0; color:#0b6fbf;">MANISH SAHANI</h1>
-<div style="color:#333;"> 
+<style>
+body { font-family: Arial, sans-serif; margin: 20px; background: linear-gradient(to bottom, #f7fbff, #ffffff); color: #333; }
+h1 { color: #0b6fbf; text-align: center; }
+.azure-highlight { background-color: #e6f3ff; padding: 2px 4px; border-radius: 3px; font-weight: bold; color: #0078d4; }
+.popular { font-weight: bold; color: #d13438; }
+.section { background: #f7fbf5; padding: 15px; margin: 10px 0; border-left: 4px solid #0b6fbf; border-radius: 5px; }
+.summary { background: #f7fbff; padding: 10px; border-left: 4px solid #0b6fbf; margin: 10px 0; border-radius: 5px; }
+@media (max-width: 768px) {
+  body { margin: 10px; }
+  h1 { font-size: 1.5em; }
+}
+</style>
 
-Handy: <b>(+49) 15757919514 </b> | 
-Email: [manish.sihulia@gmail.com](manish.sihulia@gmail.com) | Nuremberg, Germany</div>
+<h1>MANISH SAHANI</h1>
+<p style="text-align: center;">📞 (+49) 15757919514 | ✉️ <a href="mailto:manish.sihulia@gmail.com">manish.sihulia@gmail.com</a> | 📍 Nuremberg, Germany</p>
 
-<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
-<div style="background:#f7fbff; padding:10px; border-left:0px solid #0b6fbf; margin:10px 0;">
-Full Stack Developer with 5 years of experience building scalable SaaS applications in healthcare and automotive domains. Proficient in C#, ASP.NET Core, SQL Server, and REST APIs. Skilled in Agile, Azure, and CI/CD environments. I am actively seeking a new job and am available on very short notice.
- </div>
- <div style="background:#f7fbf5; padding:5px; border-left:0px solid #0b6fbf; margin:10px 0;">
-
-<h2 style="margin:0; background:#f7fbf5;  color:#0b6fbf;">Technical Expertise</h2>
-
-
-
-### 💻 Programming Languages & Frameworks
-- Languages: C#, T-SQL, jQuery, Terraform, Python, YAML
-- .NET Ecosystem: .NET Core (8.0), .NET Framework (4.x), ASP.NET (MVC, WebAPI, Razor Pages, Web Forms)
-- Desktop app: WPF, MVVM, Blazor, MAUI
-- Web: Angular, TypeScript, Node.js, Bootstrap, REST APIs, OAuth 2.0, JWT
-
-### 🧰 Tools & DevOps
-- IDEs/Tools: Visual Studio, VS Code, TFS, SVN, Jira, Confluence
-- DevOps: Git, CI/CD pipelines, GitHub Actions, Azure DevOps pipelines, Docker, Terraform, Azure container services
-### 🗄️ Databases & Data Access
-- MS SQL Server, PostgreSQL, T-SQL, Entity Framework, LINQ, ADO.NET
-### 🧪 Testing & QA
-- Unit Testing (MSTest), NUnit, xUnit, Maq, Selenium
-### ☁️ Cloud & Architecture
-- Microsoft Azure: App Services, Function Apps, Blob Storage, Service Bus, Event Grid
-- Microservices, event-driven design, OOP principles, design patterns
-### 🧠 AI, Data & Reporting
-- AI & LLMs: Copilot, Gemini, ChatGPT, Vibe coding, Ollama, OpenAI API
-- Data processing: SSIS, SSAS, ETL, Python
-- Visualization & reporting: Power BI (ETL, DAX, Power Query), Excel (Pivot Tables, Charts)
+<div class="summary">
+<strong>Professional Summary:</strong><br>
+Backend/Full-Stack Engineer with 7+ years in <span class="popular">.NET Core (C#)</span> and Angular delivering distributed systems on <span class="azure-highlight">Azure</span>. Built event-driven services with Functions and Service Bus, integrated IoT data via IoTHub, and optimized SQL/NoSQL backends. Strong DevOps mindset with Git/<span class="azure-highlight">Azure DevOps</span> CI/CD, code quality gates, and observability. Agile team collaborator (Scrum/Kanban) focused on resilient, scalable solutions.
 </div>
-<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
 
-## Work Experience
-### Associate Consultant — Mercedes-Benz Research and Development (via Capgemini)
-02/2024 – Oct/2025
+<div class="section">
+<h2>🛠️ Technical Expertise</h2>
+<strong>Backend & APIs:</strong> <span class="popular">.NET Core (C#)</span>, ASP.NET Core Web API, gRPC; async/await; clean architecture; REST/JSON; OpenAPI<br>
+<strong>Frontend:</strong> Angular (components, RxJS, forms), TypeScript, responsive UI, API integration<br>
+<strong>Distributed Systems:</strong> Event-driven design, pub/sub, Service Bus queues/topics, CQRS patterns, resiliency (retries, DLQs)<br>
+<strong><span class="azure-highlight">Azure Services</span>:</strong> IoT Hub ingestion, <span class="azure-highlight">Azure Functions</span>, Service Bus, App Service; monitoring with Application Insights<br>
+<strong>Data Stores:</strong> <span class="popular">SQL Server</span>, PostgreSQL, Cosmos DB; query optimization; caching; data partitioning; NoSQL patterns<br>
+<strong>DevOps:</strong> Git, <span class="azure-highlight">Azure DevOps</span> CI/CD, branching strategies, code quality gates, automated tests, containers (Docker)
+</div>
 
-**Role:** Software Engineer – Automotive Domain
+<div class="section">
+<h2>📋 Work Experience</h2>
+<strong>Associate Consultant — Mercedes-Benz R&D (via Capgemini)</strong><br>
+02/2024 – Oct/2025 | Full-Stack Developer – Connected Vehicle Platform<br>
+- <span class="popular">.NET Core Services</span>: Built telemetry APIs with ASP.NET Core (C#), async/await, resilient retries; designed clean contracts for consuming teams.<br>
+- <span class="azure-highlight">Azure IoT & Messaging</span>: Ingested sensor data via Azure IoT Hub; processed events with Azure Functions; used Service Bus queues/topics for reliable delivery; DLQ handling and replay.<br>
+- Angular Integration: Delivered data-ready endpoints for Angular dashboards; collaborated on contracts and caching; improved API latency by 25%.<br>
+- Data Layer: Tuned <span class="popular">SQL Server</span>/Cosmos DB queries; partitioning and indexing for high-volume telemetry; implemented caching for hot paths.<br>
+- DevOps: Git/<span class="azure-highlight">Azure DevOps</span> pipelines with gated builds, API/contract tests, and automated deployments; Dockerized services for consistency.<br>
+- Observability: Application Insights dashboards and alerts; distributed tracing for critical flows; proactive error budgets to protect SLAs.
 
-- Developed software solutions in the automotive domain, focusing on advanced vehicle systems and innovation-driven applications.
-- Contributed to the design, development, and validation of next-generation automotive technologies.
-- Collaborated with cross-functional teams to deliver high-quality, scalable, and maintainable code using Agile methodologies.
-- Designed and developed automation tools using ASP.NET Core, MVC, Web API, and Razor Pages to improve workflow efficiency.
-- Implemented microservices and RESTful APIs for integration with internal and external platforms.
-- Developed real-time dashboards and reports using Power BI, with DAX and Power Query, for process monitoring and business KPIs.
-- Automated ETL pipelines using T-SQL and SQL Server, enhancing data accuracy and reducing manual effort.
-- Built responsive UIs using JavaScript, jQuery, and Bootstrap; deployed services via Microsoft Azure (App Services, Function Apps).
-- Wrote unit and UI test scripts with NUnit and xUnit; maintained CI/CD pipelines (Git, TFS, SVN).
-- Applied OOP and design patterns to ensure clean, reusable code; implemented secure logging using Serilog/NLog.
-- Participated in Agile ceremonies (Jira, Confluence), contributing to continuous improvement.
+<strong>Software Engineer — Chetu Inc.</strong><br>
+09/2021 – 02/2024 | Full-Stack Developer – Healthcare Platform<br>
+- <span class="popular">.NET Core APIs</span>: Built HIPAA-grade services with ASP.NET Core; validation, exception handling, and logging; versioned APIs documented with Swagger/OpenAPI.<br>
+- <span class="azure-highlight">Azure Integration</span>: Event-driven flows with Service Bus queues/topics; Azure Functions for background processing; durable timers for retries; improved reliability for scheduling flows.<br>
+- Angular Frontend: Partnered with Angular team on API contracts and pagination/caching; delivered sub-second responses for clinician dashboards.<br>
+- Data Layer: <span class="popular">SQL Server</span> and PostgreSQL optimization (indexes, execution plans); introduced Cosmos DB for semi-structured data; reduced query latency ~30%.<br>
+- DevOps: <span class="azure-highlight">Azure DevOps</span> pipelines with unit/integration tests, quality gates (SonarQube), and automated deployments; Git branching and PR reviews.<br>
+- Security & Compliance: Applied OWASP practices, secret management, encryption in transit/at rest; audit logging for PHI; supported external security assessments.
 
-<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
+<strong>Software Developer — Sanchay Tech Private Limited</strong><br>
+01/2021 – 08/2021 | Full-Stack Developer – Enterprise Integration Platform<br>
+- <span class="popular">.NET Core Services</span>: Delivered integration APIs in ASP.NET Core; request validation, caching, and retry policies; improved stability for HR/Payroll modules.<br>
+- <span class="azure-highlight">Azure Messaging</span>: Used Service Bus queues/topics for cross-module integration; standardized message schemas; dead-letter monitoring and replay scripts.<br>
+- Angular UI: Exposed optimized endpoints for Angular frontends; reduced payloads and added ETag-based caching to cut bandwidth.<br>
+- Data: <span class="popular">SQL Server</span> tuning (indexes, sargable queries); introduced NoSQL store for audit/event logs; automated backups and health checks.<br>
+- DevOps: Git and <span class="azure-highlight">Azure DevOps</span> pipelines with build/test gates; Docker for consistent environments; release notes and rollback plans.
 
-### Software Engineer — Chetu Inc.
-09/2021 – 02/2024
+<strong>Software Developer — RynData Lab Private Limited</strong><br>
+09/2018 – 12/2020 | Software Developer – Real-Time Data Platform<br>
+- Backend: Built ingestion services in <span class="popular">ASP.NET Core</span>; async pipelines; bulk inserts; batch processing for high-volume data feeds.<br>
+- <span class="azure-highlight">Azure Functions & Service Bus</span>: Event-driven processing with Functions; Service Bus topics for fan-out; retry/backoff and DLQ handling.<br>
+- Data Stores: <span class="popular">SQL Server</span> for transactional data; Cosmos DB for semi-structured telemetry; partitioning strategies and performance tuning.<br>
+- Frontend Support: Exposed APIs consumed by Angular dashboards; added filtering/pagination and caching for analytics views.<br>
+- DevOps & QA: Git-based workflows; <span class="azure-highlight">Azure DevOps</span> build/release with automated tests; smoke tests in lower environments before promotion.
+</div>
 
-**Role:** Developer – Telemedicine Platform
+<div class="section">
+<h2>🎯 Core Competencies</h2>
+💻 <span class="popular">.NET Core (C#)</span>: ASP.NET Core APIs, async/await, gRPC, clean architecture<br>
+🅰️ Angular: TypeScript, RxJS, component-driven UI, API integrations<br>
+☁️ <span class="azure-highlight">Azure Services</span>: IoT Hub, Functions, Service Bus, App Service, Application Insights<br>
+🔄 Distributed Systems: Event-driven patterns, pub/sub, retries/DLQ, CQRS, caching<br>
+💾 Data: <span class="popular">SQL Server</span>, PostgreSQL, Cosmos DB; indexing, partitioning, performance tuning<br>
+🔧 DevOps: Git, <span class="azure-highlight">Azure DevOps</span> pipelines, gated builds, automated tests, Docker<br>
+📊 Observability: Application Insights, logging/metrics/traces, SLA alerts<br>
+🤝 Agile: Scrum/Kanban, backlog refinement, demos, retrospectives
+</div>
 
-- Developed backend logic and REST APIs for a multi-tenant telemedicine SaaS application, improving specialist access by 75%.
-- Built and maintained modules like EMR, doctor–patient scheduling, and diagnostics using ASP.NET Core, Web API, MS SQL Server, and Entity Framework.
-- Created Azure infrastructure with Terraform and built several end-to-end DevOps pipelines.
-- Managed container deployments and monitored application health.
-- Improved platform performance by 40% through code optimization and refactoring.
-- Handled API integration and testing, including business logic layers, ensuring system reliability.
-- Contributed to project design, end-to-end development, and UAT rollout.
+<div class="section">
+<h2>🎓 Education</h2>
+<strong>Bachelor of Technology in Computer Science</strong><br>
+Rajasthan Technical University, Kota, India (2014–2018)
+</div>
 
-**Tech Stack:** ASP.NET Core, C#, MVC, Web API, SQL Server, jQuery, Git, CI/CD pipelines, GitHub Actions, Docker, Azure, Terraform
+<div class="section">
+<h2>🚀 Professional Development</h2>
+- Advanced <span class="popular">.NET Core</span><br>
+- Angular / TypeScript<br>
+- <span class="azure-highlight">Azure Service Bus & Functions</span><br>
+- <span class="azure-highlight">Azure Architecture</span><br>
+- SQL/NoSQL Performance<br>
+- <span class="azure-highlight">Azure DevOps</span> CI/CD<br>
+- Cloud Security Basics
+</div>
 
-### Jr. Software Developer — Sanchay Tech Private Limited
-01/2021 – 08/2021  Delhi | Country: India
-
-**Role:** Full-Stack Developer – ERP System
-
-- Developed and maintained modules for HR, payroll, inventory, invoicing, and order processing.
-- Built end-to-end functionality using ASP.NET MVC, Web API, MS SQL Server, and front-end tech like jQuery, AJAX, and JavaScript.
-- Debugged existing applications and improved application stability by 15%.
-- Delivered clean, maintainable code, reducing technical debt by 50%.
-- Participated in testing, bug fixing, and final deployment of ERP solutions.
-
-**Tech Stack:** ASP.NET, C#, MVC, SQL Server, jQuery, JavaScript, Git, TFS
-
-<hr style="border:none; border-top:3px solid #264c82ff; margin:14px 0;" />
-
-## Education and Training
-- 2014–2018 — Bachelor of Technology, Rajasthan Technical University (Kota, India)
-- 2010–2013 — 10th–12th Grade (Uttar Pradesh, India)
-## Languages
-- English — Professional working proficiency
-- Deutsch — Beginner
-## Location
-Erlanger, Germany
+<div class="section">
+<h2>🌐 Languages & Location</h2>
+🗣️ Languages: English (Professional) | Deutsch (A2)<br>
+📍 Location: Nuremberg, Germany | Available immediately
+</div>
