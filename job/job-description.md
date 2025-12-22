@@ -4,4 +4,3 @@ You have several years of experience in Platform or DevOps Engineering and feel 
 You bring extensive experience with virtualization technologies like VMware vSphere, XCP-ng, VirtualBox, or Hyper-V, as well as with container technologies such as Docker, Podman, and Kubernetes.
 You stand out with your teamwork skills, strong communication, and your independent, structured, and solution-oriented way of working.
 You are committed to continuous learning and enjoy staying up to date with new technologies.
-<!-- test branch A1-->
