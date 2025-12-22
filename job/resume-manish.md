@@ -1,102 +1,197 @@
 <style>
-body { font-family: Arial, sans-serif; margin: 20px; background: linear-gradient(to bottom, #f7fbff, #ffffff); color: #333; }
-h1 { color: #0b6fbf; text-align: center; }
-.azure-highlight { background-color: #e6f3ff; padding: 2px 4px; border-radius: 3px; font-weight: bold; color: #0078d4; }
-.popular { font-weight: bold; color: #d13438; }
-.section { background: #f7fbf5; padding: 15px; margin: 10px 0; border-left: 4px solid #0b6fbf; border-radius: 5px; }
-.summary { background: #f7fbff; padding: 10px; border-left: 4px solid #0b6fbf; margin: 10px 0; border-radius: 5px; }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+  line-height: 1.6;
+}
+h1 {
+  color: #007acc;
+  display: inline;
+  font-size: 2.5em;
+  margin: 0 10px 0 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+.contact-info {
+  text-align: center;
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.azure-highlight {
+  background-color: #e6f7ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  color: #0078d4;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+.popular {
+  font-weight: bold;
+  color: #e74c3c;
+  background-color: #ffeaea;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.section {
+  background: linear-gradient(135deg, #ffffff 0%, #f9f9f9 100%);
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 5px solid #007acc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.summary {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  padding: 15px;
+  border-left: 5px solid #007acc;
+  margin: 15px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 1em;
+}
+.experience-item {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  border-left: 4px solid #28a745;
+}
+.experience-item h3 {
+  color: #007acc;
+  margin-top: 0;
+  font-size: 1.2em;
+}
+.experience-item ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+.experience-item li {
+  margin-bottom: 8px;
+}
+.core-competencies {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.education, .languages {
+  background: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, #007acc, #28a745);
+  margin: 20px 0;
+}
 @media (max-width: 768px) {
   body { margin: 10px; }
-  h1 { font-size: 1.5em; }
+  h1 { font-size: 2em; }
+  .section, .summary { padding: 15px; }
 }
 </style>
 
-<h1>MANISH SAHANI</h1>
-<p style="text-align: center;">📞 (+49) 15757919514 | ✉️ <a href="mailto:manish.sihulia@gmail.com">manish.sihulia@gmail.com</a> | 📍 Nuremberg, Germany</p>
+<div class="contact-info">
+  <h1>MANISH SAHANI</h1> (+49) 15757919514 | <a href="mailto:manish.sihulia@gmail.com" style="text-decoration:none; color:#007acc;"><b>manish.sihulia@gmail.com</b></a> | Nuremberg, Germany
+</div>
+
+<hr />
 
 <div class="summary">
-<strong>Professional Summary:</strong><br>
-Backend/Full-Stack Engineer with 7+ years in <span class="popular">.NET Core (C#)</span> and Angular delivering distributed systems on <span class="azure-highlight">Azure</span>. Built event-driven services with Functions and Service Bus, integrated IoT data via IoTHub, and optimized SQL/NoSQL backends. Strong DevOps mindset with Git/<span class="azure-highlight">Azure DevOps</span> CI/CD, code quality gates, and observability. Agile team collaborator (Scrum/Kanban) focused on resilient, scalable solutions.
+<strong>Summary:</strong> <span class="popular">.NET</span> & <span class="azure-highlight">Azure</span> Developer with 7 years building microservices and cloud-native applications. Expert in <span class="popular">ASP.NET Core</span>, <span class="azure-highlight">Azure PaaS</span> (Functions, Logic Apps, Event Grid, Service Bus), Kubernetes, Docker, and DevOps practices including CI/CD pipelines with GitLab CI/CD and Jenkins. Proficient in virtualization technologies like VMware vSphere and Hyper-V, container orchestration with Podman, and Infrastructure as Code. Skilled in designing resilient <span class="azure-highlight">Azure</span> systems, optimizing deployment cycles, and ensuring high availability in modern infrastructure environments.
 </div>
 
 <div class="section">
-<h2>🛠️ Technical Expertise</h2>
-<strong>Backend & APIs:</strong> <span class="popular">.NET Core (C#)</span>, ASP.NET Core Web API, gRPC; async/await; clean architecture; REST/JSON; OpenAPI<br>
-<strong>Frontend:</strong> Angular (components, RxJS, forms), TypeScript, responsive UI, API integration<br>
-<strong>Distributed Systems:</strong> Event-driven design, pub/sub, Service Bus queues/topics, CQRS patterns, resiliency (retries, DLQs)<br>
-<strong><span class="azure-highlight">Azure Services</span>:</strong> IoT Hub ingestion, <span class="azure-highlight">Azure Functions</span>, Service Bus, App Service; monitoring with Application Insights<br>
-<strong>Data Stores:</strong> <span class="popular">SQL Server</span>, PostgreSQL, Cosmos DB; query optimization; caching; data partitioning; NoSQL patterns<br>
-<strong>DevOps:</strong> Git, <span class="azure-highlight">Azure DevOps</span> CI/CD, branching strategies, code quality gates, automated tests, containers (Docker)
+<h2>Technical Expertise</h2>
+<ul>
+<li><strong>Backend & Cloud:</strong> <span class="popular">ASP.NET Core</span>, <span class="popular">C#</span> • <span class="azure-highlight">Azure PaaS</span> (Functions, Logic Apps, Event Grid, Service Bus, AKS) • Microservices, DDD, RESTful APIs, gRPC</li>
+<li><strong>Data & Integration:</strong> <span class="popular">SQL Server</span>, CosmosDB, Entity Framework Core • Event-driven, CQRS, Service Bus messaging</li>
+<li><strong>DevOps & Platform Engineering:</strong> <span class="azure-highlight">Azure DevOps</span>, GitHub Actions, GitLab CI/CD, Jenkins • Docker, Podman, Kubernetes • IaC (Bicep, Terraform, ARM) • Virtualization (VMware vSphere, Hyper-V, VirtualBox) • Application Insights, SonarQube</li>
+<li><strong>Frontend:</strong> Blazor, Angular, TypeScript, SignalR • Responsive design, accessibility</li>
+<li><strong>Security:</strong> <span class="azure-highlight">Azure AD</span>, OAuth2, OpenID Connect, RBAC, Key Vault • API security, encryption</li>
+<li><strong>Testing:</strong> xUnit, NUnit, integration testing, performance testing</li>
+</ul>
 </div>
 
-<div class="section">
-<h2>📋 Work Experience</h2>
-<strong>Associate Consultant — Mercedes-Benz R&D (via Capgemini)</strong><br>
-02/2024 – Oct/2025 | Full-Stack Developer – Connected Vehicle Platform<br>
-- <span class="popular">.NET Core Services</span>: Built telemetry APIs with ASP.NET Core (C#), async/await, resilient retries; designed clean contracts for consuming teams.<br>
-- <span class="azure-highlight">Azure IoT & Messaging</span>: Ingested sensor data via Azure IoT Hub; processed events with Azure Functions; used Service Bus queues/topics for reliable delivery; DLQ handling and replay.<br>
-- Angular Integration: Delivered data-ready endpoints for Angular dashboards; collaborated on contracts and caching; improved API latency by 25%.<br>
-- Data Layer: Tuned <span class="popular">SQL Server</span>/Cosmos DB queries; partitioning and indexing for high-volume telemetry; implemented caching for hot paths.<br>
-- DevOps: Git/<span class="azure-highlight">Azure DevOps</span> pipelines with gated builds, API/contract tests, and automated deployments; Dockerized services for consistency.<br>
-- Observability: Application Insights dashboards and alerts; distributed tracing for critical flows; proactive error budgets to protect SLAs.
+<hr />
 
-<strong>Software Engineer — Chetu Inc.</strong><br>
-09/2021 – 02/2024 | Full-Stack Developer – Healthcare Platform<br>
-- <span class="popular">.NET Core APIs</span>: Built HIPAA-grade services with ASP.NET Core; validation, exception handling, and logging; versioned APIs documented with Swagger/OpenAPI.<br>
-- <span class="azure-highlight">Azure Integration</span>: Event-driven flows with Service Bus queues/topics; Azure Functions for background processing; durable timers for retries; improved reliability for scheduling flows.<br>
-- Angular Frontend: Partnered with Angular team on API contracts and pagination/caching; delivered sub-second responses for clinician dashboards.<br>
-- Data Layer: <span class="popular">SQL Server</span> and PostgreSQL optimization (indexes, execution plans); introduced Cosmos DB for semi-structured data; reduced query latency ~30%.<br>
-- DevOps: <span class="azure-highlight">Azure DevOps</span> pipelines with unit/integration tests, quality gates (SonarQube), and automated deployments; Git branching and PR reviews.<br>
-- Security & Compliance: Applied OWASP practices, secret management, encryption in transit/at rest; audit logging for PHI; supported external security assessments.
+<h2>Work Experience</h2>
 
-<strong>Software Developer — Sanchay Tech Private Limited</strong><br>
-01/2021 – 08/2021 | Full-Stack Developer – Enterprise Integration Platform<br>
-- <span class="popular">.NET Core Services</span>: Delivered integration APIs in ASP.NET Core; request validation, caching, and retry policies; improved stability for HR/Payroll modules.<br>
-- <span class="azure-highlight">Azure Messaging</span>: Used Service Bus queues/topics for cross-module integration; standardized message schemas; dead-letter monitoring and replay scripts.<br>
-- Angular UI: Exposed optimized endpoints for Angular frontends; reduced payloads and added ETag-based caching to cut bandwidth.<br>
-- Data: <span class="popular">SQL Server</span> tuning (indexes, sargable queries); introduced NoSQL store for audit/event logs; automated backups and health checks.<br>
-- DevOps: Git and <span class="azure-highlight">Azure DevOps</span> pipelines with build/test gates; Docker for consistent environments; release notes and rollback plans.
-
-<strong>Software Developer — RynData Lab Private Limited</strong><br>
-09/2018 – 12/2020 | Software Developer – Real-Time Data Platform<br>
-- Backend: Built ingestion services in <span class="popular">ASP.NET Core</span>; async pipelines; bulk inserts; batch processing for high-volume data feeds.<br>
-- <span class="azure-highlight">Azure Functions & Service Bus</span>: Event-driven processing with Functions; Service Bus topics for fan-out; retry/backoff and DLQ handling.<br>
-- Data Stores: <span class="popular">SQL Server</span> for transactional data; Cosmos DB for semi-structured telemetry; partitioning strategies and performance tuning.<br>
-- Frontend Support: Exposed APIs consumed by Angular dashboards; added filtering/pagination and caching for analytics views.<br>
-- DevOps & QA: Git-based workflows; <span class="azure-highlight">Azure DevOps</span> build/release with automated tests; smoke tests in lower environments before promotion.
+<div class="experience-item">
+<h3>Full-Stack Developer — Mercedes-Benz R&D (via Capgemini)</h3>
+<p><em>02/2024 – Oct/2025 | Full-Stack .NET Developer & Platform Engineer – Automotive & <span class="azure-highlight">Azure</span></em></p>
+<ul>
+<li><strong>Cloud & Platform:</strong> Designed and implemented CI/CD pipelines using GitLab CI/CD for automated deployments, reducing release cycles by 40%. Managed Kubernetes clusters on AKS with Podman for containerized applications, ensuring scalability and high availability.</li>
+<li><strong>Virtualization & Infrastructure:</strong> Configured VMware vSphere environments for development and testing, optimizing resource allocation and improving system performance. Utilized Hyper-V for virtual machine management in hybrid cloud setups.</li>
+<li><strong>Cloud Services:</strong> <span class="popular">ASP.NET Core</span> APIs, <span class="azure-highlight">Azure Functions</span>, Logic Apps, Event Grid, Service Bus. Bicep/Terraform IaC, Docker, Kubernetes.</li>
+<li><strong>Data:</strong> <span class="popular">SQL Server</span>, <span class="azure-highlight">Azure SQL</span>, CosmosDB; Entity Framework Core optimization; 99.9% uptime SLA.</li>
+<li><strong>Frontend:</strong> Blazor WebAssembly, Angular SPA, SignalR real-time, responsive dashboards.</li>
+<li><strong>DevOps:</strong> <span class="azure-highlight">Azure DevOps</span>, GitHub Actions, Jenkins integration, xUnit testing, SonarQube gates, 15-min deployment cycles.</li>
+<li><strong>Security:</strong> <span class="azure-highlight">Azure AD</span>, OAuth2, OpenID Connect, RBAC, Key Vault, API token validation.</li>
+</ul>
 </div>
 
-<div class="section">
-<h2>🎯 Core Competencies</h2>
-💻 <span class="popular">.NET Core (C#)</span>: ASP.NET Core APIs, async/await, gRPC, clean architecture<br>
-🅰️ Angular: TypeScript, RxJS, component-driven UI, API integrations<br>
-☁️ <span class="azure-highlight">Azure Services</span>: IoT Hub, Functions, Service Bus, App Service, Application Insights<br>
-🔄 Distributed Systems: Event-driven patterns, pub/sub, retries/DLQ, CQRS, caching<br>
-💾 Data: <span class="popular">SQL Server</span>, PostgreSQL, Cosmos DB; indexing, partitioning, performance tuning<br>
-🔧 DevOps: Git, <span class="azure-highlight">Azure DevOps</span> pipelines, gated builds, automated tests, Docker<br>
-📊 Observability: Application Insights, logging/metrics/traces, SLA alerts<br>
-🤝 Agile: Scrum/Kanban, backlog refinement, demos, retrospectives
+<div class="experience-item">
+<h3>Full-Stack Developer — Chetu Inc.</h3>
+<p><em>09/2021 – 02/2024 | Full-Stack .NET Developer & DevOps Engineer – Healthcare SaaS</em></p>
+<ul>
+<li><strong>Backend & DevOps:</strong> Built CI/CD pipelines with Jenkins for continuous integration, integrating automated testing and deployment processes. Managed containerized environments using Docker and Podman for scalable healthcare applications.</li>
+<li><strong>Virtualization:</strong> Implemented VirtualBox for local development environments, ensuring consistent setups across teams.</li>
+<li><strong>Cloud:</strong> <span class="azure-highlight">Azure App Service</span>, Functions, Service Bus, CosmosDB, Blob Storage, Application Insights.</li>
+<li><strong>Frontend:</strong> Blazor WebAssembly, Angular TypeScript, SignalR real-time, HIPAA-compliant UI.</li>
+<li><strong>DevOps:</strong> <span class="azure-highlight">Azure DevOps</span> CI/CD, Docker, Kubernetes, xUnit testing, SonarQube gates.</li>
+<li><strong>Database:</strong> <span class="popular">SQL Server</span>/<span class="azure-highlight">Azure SQL</span>, 99.95% availability, HIPAA compliance.</li>
+</ul>
 </div>
 
-<div class="section">
-<h2>🎓 Education</h2>
-<strong>Bachelor of Technology in Computer Science</strong><br>
-Rajasthan Technical University, Kota, India (2014–2018)
+<div class="experience-item">
+<h3>Software Developer — Sanchay Tech Private Limited</h3>
+<p><em>01/2021 – 08/2021 | ASP.NET Core Developer & Platform Integrator – Enterprise Integration</em></p>
+<ul>
+<li><strong>Microservices & Containers:</strong> Designed microservices architecture with Docker and Kubernetes, incorporating Podman for alternative container management.</li>
+<li><strong>CI/CD & Virtualization:</strong> Set up GitLab CI/CD pipelines for automated builds and deployments. Configured Hyper-V virtual environments for isolated testing.</li>
+<li><strong>Data:</strong> <span class="popular">SQL Server</span> ETL pipelines, EF Core, complex validation, API contract design.</li>
+<li><strong>Cloud:</strong> <span class="azure-highlight">Azure App Service</span>, Infrastructure as Code with ARM templates, Application Insights.</li>
+<li><strong>Security:</strong> OAuth2/JWT authentication, data encryption, audit logging, API security.</li>
+</ul>
 </div>
 
-<div class="section">
-<h2>🚀 Professional Development</h2>
-- Advanced <span class="popular">.NET Core</span><br>
-- Angular / TypeScript<br>
-- <span class="azure-highlight">Azure Service Bus & Functions</span><br>
-- <span class="azure-highlight">Azure Architecture</span><br>
-- SQL/NoSQL Performance<br>
-- <span class="azure-highlight">Azure DevOps</span> CI/CD<br>
-- Cloud Security Basics
+<div class="experience-item">
+<h3>Software Developer — RynData Lab Private Limited</h3>
+<p><em>09/2018 – 12/2020 | Backend Developer & DevOps Specialist – Data Analytics Platform</em></p>
+<ul>
+<li><strong>Backend & DevOps:</strong> Implemented Jenkins for CI/CD, automating the deployment of data analytics services. Used Docker and Kubernetes for container orchestration in distributed environments.</li>
+<li><strong>Virtualization:</strong> Managed VirtualBox for development VMs, facilitating cross-platform compatibility.</li>
+<li><strong>Data:</strong> <span class="popular">SQL Server</span> data warehouse, CosmosDB, ETL optimization, real-time analytics.</li>
+<li><strong>Cloud:</strong> <span class="azure-highlight">Azure App Service</span>, Functions, Storage (Blob/Queue), Application Insights monitoring.</li>
+<li><strong>DevOps:</strong> <span class="azure-highlight">Azure DevOps</span> CI/CD, Docker containerization, xUnit/integration testing.</li>
+</ul>
 </div>
 
-<div class="section">
-<h2>🌐 Languages & Location</h2>
-🗣️ Languages: English (Professional) | Deutsch (A2)<br>
-📍 Location: Nuremberg, Germany | Available immediately
+<hr />
+
+<div class="core-competencies">
+<h2>Core Competencies</h2>
+<p><strong>Cloud & Enterprise:</strong> <span class="popular">C#</span>, <span class="azure-highlight">Azure PaaS</span> (Functions, Logic Apps, Event Grid, Service Bus) | <strong>Architecture:</strong> Microservices, DDD, CQRS, Event Sourcing, clean code | <strong>Backend:</strong> <span class="popular">ASP.NET Core</span>, REST APIs, gRPC, async patterns, dependency injection | <strong>Data:</strong> <span class="popular">SQL Server</span>, CosmosDB, Entity Framework Core, query optimization | <strong>DevOps & Platform:</strong> <span class="azure-highlight">Azure DevOps</span>, GitHub Actions, GitLab CI/CD, Jenkins, Docker, Podman, Kubernetes, Bicep/Terraform IaC, VMware vSphere, Hyper-V, VirtualBox | <strong>Frontend:</strong> Blazor, Angular, TypeScript, SignalR | <strong>Security:</strong> <span class="azure-highlight">Azure AD</span>, OAuth2, OpenID Connect, RBAC, encryption | <strong>Quality:</strong> Unit testing (xUnit), integration testing, SonarQube, performance testing | <strong>Leadership:</strong> Team mentoring, code reviews, technical architecture, agile delivery</p>
+</div>
+
+<div class="education">
+<h2>Education</h2>
+<p><strong>Bachelor of Technology in Computer Science</strong> — Rajasthan Technical University, Kota, India (2014–2018)</p>
+</div>
+
+<div class="languages">
+<h2>Languages & Location</h2>
+<p><strong>Languages:</strong> English (Professional) | Deutsch (A2 – actively learning)</p>
+<p><strong>Location:</strong> Nuremberg, Germany | Immediate joiner</p>
 </div>

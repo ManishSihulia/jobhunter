@@ -1,53 +1,144 @@
-# Training Plan for MS Dynamics NAV / Business Central Developer Role
+# Training Plan for Senior Software Engineer Role
 
-Based on the job requirements and current skill gaps, here are the priority areas for training and skill development to maximize success in this ERP developer position.
+Based on the job requirements and current skill gaps, here are the priority areas for training and skill development to maximize success in this Azure-focused software engineering position.
 
 ## 🔴 HIGH PRIORITY - Critical for Role
 
-### 1. Microsoft Dynamics NAV & Business Central Fundamentals
-**Relevance:** REQUIRED - Core platform knowledge for the role.
+### 1. Go Programming Language
+**Relevance:** HIGH - Emerging backend technology mentioned in job requirements.
 
 #### Overview
-Microsoft Dynamics NAV (now rebranded as Dynamics 365 Business Central) is a comprehensive ERP solution for small to medium-sized businesses. Understanding its architecture, development environment, and customization capabilities is essential.
+Go (Golang) is a statically typed, compiled programming language designed for building simple, reliable, and efficient software. It's gaining popularity for cloud-native applications and microservices.
 
 #### Training Topics
-- [ ] **NAV/BC Architecture:** Multi-tier architecture, database layer, application server, client layer
-- [ ] **Navigation:** Tables, Pages, Reports, Codeunits, XMLports, Queries
-- [ ] **Development Environment:** Visual Studio Code with AL Language extension vs. C/SIDE (legacy)
-- [ ] **Data Model:** Understanding standard NAV tables, primary keys, relationships, table extensions
-- [ ] **Page Design:** Card pages, List pages, Document pages, page extensions, actions, triggers
-- [ ] **Business Logic:** Codeunits, procedures, functions, event subscribers
-- [ ] **Licensing & Versioning:** Understanding NAV versions (2013, 2015, 2016, 2017, 2018) vs. Business Central
+- [ ] **Go Fundamentals:** Syntax, variables, data types, functions, packages
+- [ ] **Concurrency:** Goroutines, channels, select statements, sync package
+- [ ] **Error Handling:** Error types, panic/recover, custom errors
+- [ ] **Testing:** Unit testing with testing package, benchmarks, coverage
+- [ ] **HTTP Services:** net/http package, REST APIs, middleware
+- [ ] **Database Integration:** Database/sql, GORM, connection pooling
+- [ ] **Microservices:** Building RESTful services, gRPC with Go
 
 #### Resources
-- Microsoft Learn: Introduction to Dynamics 365 Business Central
-- Microsoft Docs: Dynamics NAV Developer Documentation
-- Hands-on: Install BC sandbox environment, explore standard modules
-- Book: "Programming Microsoft Dynamics NAV" by David Studebaker
+- Official Go Tour: https://tour.golang.org/
+- "The Go Programming Language" book by Donovan & Kernighan
+- Go by Example: https://gobyexample.com/
+- Hands-on: Build a REST API with Go and PostgreSQL
 
-### 2. C/AL Programming Language (NAV Legacy)
-**Relevance:** REQUIRED - Many NAV implementations still use C/AL for customizations.
+### 2. Microsoft Dynamics 365
+**Relevance:** HIGH - Business application development experience required.
 
 #### Overview
-C/AL (Client/Server Application Language) is the proprietary programming language for Microsoft Dynamics NAV. While legacy, it's still widely used in existing NAV installations.
+Dynamics 365 is a suite of intelligent business applications that help organizations transform and grow. Understanding its architecture and development approaches is essential for enterprise application development.
 
 #### Training Topics
-- [ ] **Syntax Fundamentals:** Variables, data types, operators, control structures
-- [ ] **Triggers:** OnInsert, OnModify, OnDelete, OnValidate, OnAfterGetRecord
-- [ ] **Functions:** Built-in functions (FIND, SETRANGE, CALCFIELDS, MESSAGE), custom functions
-- [ ] **Record Operations:** INSERT, MODIFY, DELETE, GET, SETFILTER, SETRANGE
-- [ ] **Forms & Reports:** Classic forms, request pages, sections, data items
-- [ ] **Error Handling:** ERROR function, CONFIRM dialogs, validation
-- [ ] **C/AL vs C#:** Understanding differences and similarities for faster learning
+- [ ] **Dynamics 365 Fundamentals:** Platform overview, modules (Sales, Service, Finance, Operations)
+- [ ] **Power Platform Integration:** Power Apps, Power Automate, Power BI integration
+- [ ] **Dataverse:** Data modeling, entities, relationships, business rules
+- [ ] **API Integration:** Web API, custom connectors, authentication
+- [ ] **Customization:** Forms, views, dashboards, business process flows
+- [ ] **Security Model:** Roles, permissions, field-level security
+- [ ] **Deployment:** Solutions, environments, ALM practices
 
 #### Resources
-- Microsoft Dynamics NAV C/AL Programming Guide
-- C/AL Symbol Reference documentation
-- Practice: Modify standard NAV objects, create custom reports
-- Online tutorials: C/AL basics for C# developers
+- Microsoft Learn: Dynamics 365 Fundamentals
+- Dynamics 365 Developer Documentation
+- Power Platform Center of Excellence
+- Hands-on: Create custom apps with Power Apps and Dataverse
 
-### 3. AL Programming Language (Business Central Modern)
-**Relevance:** REQUIRED - Modern development language for Business Central cloud and on-premises.
+### 3. Microsoft Power Platform
+**Relevance:** HIGH - Low-code development and automation skills needed.
+
+#### Overview
+Power Platform enables users to build apps, automate workflows, analyze data, and create virtual agents without extensive coding. It's crucial for rapid application development and business process automation.
+
+#### Training Topics
+- [ ] **Power Apps:** Canvas apps, model-driven apps, components, formulas
+- [ ] **Power Automate:** Cloud flows, desktop flows, connectors, expressions
+- [ ] **Power BI:** Data modeling, DAX, visualizations, dashboards
+- [ ] **Power Virtual Agents:** Chatbots, topics, entities, integration
+- [ ] **Dataverse Integration:** Custom entities, relationships, security
+- [ ] **Power Platform Admin:** Environments, security, governance
+- [ ] **Advanced Development:** Custom connectors, PCF controls
+
+#### Resources
+- Microsoft Learn: Power Platform Fundamentals
+- Power Platform Documentation
+- Power Apps Community
+- Hands-on: Build a business app with Power Apps and Power Automate
+
+## 🟡 MEDIUM PRIORITY - Beneficial Skills
+
+### 4. JMeter Performance Testing
+**Relevance:** MEDIUM - Testing and performance optimization experience.
+
+#### Overview
+Apache JMeter is an open-source tool for performance testing, load testing, and functional testing of web applications. Understanding performance testing methodologies is valuable for ensuring application scalability.
+
+#### Training Topics
+- [ ] **JMeter Basics:** Test plans, thread groups, samplers, listeners
+- [ ] **HTTP Testing:** HTTP requests, cookies, headers, SSL testing
+- [ ] **Load Testing:** Thread groups, ramp-up, duration, assertions
+- [ ] **Performance Analysis:** Response times, throughput, error rates
+- [ ] **Database Testing:** JDBC requests, connection pooling
+- [ ] **Distributed Testing:** Master-slave configuration, cloud testing
+- [ ] **Reporting:** Generating reports, integrating with CI/CD
+
+#### Resources
+- Apache JMeter Official Documentation
+- "Performance Testing with JMeter" online courses
+- BlazeMeter Academy
+- Hands-on: Create load tests for REST APIs
+
+### 5. Google Cloud Platform (GCP)
+**Relevance:** MEDIUM - Cloud platform diversity and multi-cloud experience.
+
+#### Overview
+Google Cloud Platform provides a suite of cloud computing services. Understanding GCP fundamentals complements Azure knowledge and demonstrates multi-cloud capabilities.
+
+#### Training Topics
+- [ ] **GCP Fundamentals:** Compute Engine, App Engine, Kubernetes Engine
+- [ ] **Storage & Databases:** Cloud Storage, BigQuery, Cloud SQL, Firestore
+- [ ] **Networking:** VPC, Load Balancing, Cloud CDN
+- [ ] **DevOps:** Cloud Build, Container Registry, Cloud Source Repositories
+- [ ] **AI/ML:** AI Platform, AutoML, BigQuery ML
+- [ ] **Security:** Identity & Access Management, Security Command Center
+- [ ] **Migration:** Tools and best practices for cloud migration
+
+#### Resources
+- Google Cloud Skills Boost
+- GCP Documentation and Guides
+- Qwiklabs Hands-on Labs
+- Hands-on: Deploy a web app on App Engine
+
+## 📋 TRAINING APPROACH
+
+### Learning Methodology
+1. **Structured Learning:** Follow official documentation and courses for each technology
+2. **Hands-on Practice:** Build small projects or complete tutorials for practical experience
+3. **Integration Projects:** Create projects that combine multiple skills (e.g., Go API with Azure deployment)
+4. **Certification Preparation:** Focus on relevant certifications (AZ-204, PL-900, etc.)
+
+### Time Allocation (Estimated)
+- **Go Programming:** 40 hours (2-3 weeks part-time)
+- **Dynamics 365:** 60 hours (3-4 weeks part-time)
+- **Power Platform:** 50 hours (2-3 weeks part-time)
+- **JMeter:** 20 hours (1 week part-time)
+- **GCP:** 40 hours (2 weeks part-time)
+
+### Progress Tracking
+- [ ] Complete Go fundamentals and build a REST API
+- [ ] Create a Power App with Dataverse integration
+- [ ] Build a Dynamics 365 workflow automation
+- [ ] Perform load testing on a sample application
+- [ ] Deploy an application on GCP
+
+### Resources Budget
+- Free: Microsoft Learn, Go Tour, Official documentation
+- Paid: LinkedIn Learning, Pluralsight, Udemy courses ($20-50/month)
+- Hands-on: Free tiers of Azure, GCP, Power Platform
+
+This training plan focuses on closing the skill gaps identified in the job requirements while building a strong foundation for the Senior Software Engineer role.
 
 #### Overview
 AL is the modern successor to C/AL, designed for extension-based development in Business Central. It uses Visual Studio Code and supports modern development practices like Git version control.
