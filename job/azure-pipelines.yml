@@ -1,4 +1,4 @@
-# Azure Pipeline for Job Project
+# Azure Pipeline for Job Project for Building, Testing, and Deploying to Azure Web App
 
 trigger:
   - main
