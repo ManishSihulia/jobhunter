@@ -1,0 +1,40 @@
+# Azure Pipeline for Job Project
+
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '6.x'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - script: |
+      echo "Building the job project"
+      # Add build commands here if applicable
+    displayName: 'Build Job Project'
+
+  - script: |
+      echo "Running tests"
+      # Add test commands here if applicable
+    displayName: 'Run Tests'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      pathToPublish: '$(Build.ArtifactStagingDirectory)'
+      artifactName: 'drop'
+    displayName: 'Publish Artifacts'
+
+  - task: AzureRmWebAppDeployment@4
+    inputs:
+      ConnectionType: 'AzureRM'
+      azureSubscription: 'Your-Azure-Subscription'
+      appType: 'webApp'
+      WebAppName: 'your-web-app-name'
+      packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    displayName: 'Deploy to Azure Web App'
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
