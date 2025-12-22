@@ -1,6 +1,22 @@
-Qualifikationen
-You hold a degree in Computer Science, Information Technology, or a comparable field.
-You have several years of experience in Platform or DevOps Engineering and feel at home in modern infrastructure environments. You have strong expertise in designing CI/CD pipelines, ideally using tools such as GitLab CI/CD or Jenkins.
-You bring extensive experience with virtualization technologies like VMware vSphere, XCP-ng, VirtualBox, or Hyper-V, as well as with container technologies such as Docker, Podman, and Kubernetes.
-You stand out with your teamwork skills, strong communication, and your independent, structured, and solution-oriented way of working.
-You are committed to continuous learning and enjoy staying up to date with new technologies..
+What you’ll do:
+Build and maintain high-load online game features (C#, .NET)
+Implement new combat mechanics
+Refine and optimize client-side logic
+Develop related service functionality (Java)
+Contribute to architectural decisions
+Help design network interactions between client and server
+Review teammates’ code and solutions
+Participate in release prep and post-release stabilization
+Collaborate closely with Game Design, QA, DevOps, and other teams
+What you need to succeed:
+A genuine passion for making games
+Strong proficiency in C# (version 8+)
+Experience with high-load systems
+Solid understanding of SOLID, DRY, and KISS principles
+Ability to write testable, thoroughly tested code
+Knowledge of core algorithms and data structures—and when to use them
+Understanding of distributed, fault-tolerant architecture + hands-on design experience
+Ability to navigate and improve existing codebases
+Confidence shipping features to production
+Experience with CI/CD and production deployments
+Willingness to work with client-side code (Unity) and enhance it when needed
